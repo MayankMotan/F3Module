@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(26, 26, 28, 1);
+    color: white;
+    margin: 30px;
+}
+input{
+    width: 400px;
+}
+input,button{
+    border:1px solid rgba(142, 142, 142, 1);
+    background-color: rgba(26, 26, 28, 1);
+    background-color: none;
+    padding: 10px;
+    color: white;
+}
+table td, th{
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    margin: 40px 30px;
+}
+.padd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
